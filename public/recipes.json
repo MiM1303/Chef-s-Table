@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Spaghetti Bolognese",
       "description": "Classic Italian pasta dish with savory meat sauce.",
-      "ingredients": ["500g ground beef", "1 onion, chopped", "2 cloves garlic, minced"],
+      "ingredients": ["500g ground beef", "1 onion, chopped", "2 cloves garlic, minced", "pasta"],
       "time": 30,
       "calories": 600
     },
