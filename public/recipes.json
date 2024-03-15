@@ -1,0 +1,92 @@
+[
+    {
+      "img": "https://i.ibb.co/hLCJs0X/Spaghetti-Bolognese.jpg ",
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": ["500g ground beef", "1 onion, chopped", "2 cloves garlic, minced"],
+      "time": 30,
+      "calories": 600
+    },
+    {
+      "img": "https://i.ibb.co/WptpM1f/Chicken-Tikka-Masala.jpg",
+      "id": 2,
+      "name": "Chicken Tikka Masala",
+      "description": "Creamy and aromatic Indian curry with tender chicken pieces.",
+      "ingredients": ["500g chicken breast", "1 cup yogurt", "2 tbsp tikka masala paste"],
+      "time": 45,
+      "calories": 700
+    },
+    {
+      "img": "https://i.ibb.co/C2q3gVw/Caprese-Salad.jpg",
+      "id": 3,
+      "name": "Caprese Salad",
+      "description": "Fresh and colorful Italian salad with tomatoes, mozzarella, and basil.",
+      "ingredients": ["3 large tomatoes", "250g fresh mozzarella", "Handful of fresh basil leaves"],
+      "time": 15,
+      "calories": 350
+    },
+    {
+      "img": "https://i.ibb.co/D1y92Zj/Beef-Stir-Fry.png",
+      "id": 4,
+      "name": "Beef Stir-Fry",
+      "description": "Quick and flavorful Asian-inspired dish with tender beef and crisp vegetables.",
+      "ingredients": ["500g beef sirloin", "2 bell peppers, sliced", "1 cup broccoli florets"],
+      "time": 25,
+      "calories": 550
+    },
+    {
+      "img": "https://i.ibb.co/b2Zbnd0/Mushroom-Risotto.jpg",
+      "id": 5,
+      "name": "Mushroom Risotto",
+      "description": "Creamy and comforting Italian rice dish with earthy mushrooms.",
+      "ingredients": ["1 cup Arborio rice", "200g mushrooms", "1 onion, finely chopped"],
+      "time": 40,
+      "calories": 500
+    },
+    {
+      "img": "https://i.ibb.co/2K0Tbtg/Grilled-Salmon.jpg",
+      "id": 6,
+      "name": "Grilled Salmon",
+      "description": "Healthy and delicious seafood option seasoned and grilled to perfection.",
+      "ingredients": ["4 salmon fillets", "2 tbsp olive oil", "1 lemon, sliced"],
+      "time": 20,
+      "calories": 450
+    },
+    {
+      "img": "https://i.ibb.co/3TkHPL4/Vegetable-Curry.jpg",
+      "id": 7,
+      "name": "Vegetable Curry",
+      "description": "Hearty and wholesome vegetarian curry bursting with vibrant flavors.",
+      "ingredients": ["2 cups mixed vegetables", "1 can coconut milk", "2 tbsp curry powder"],
+      "time": 35,
+      "calories": 400
+    },
+    {
+      "img": "https://i.ibb.co/Pzqd9DY/Homemade-Pizza.jpg",
+      "id": 8,
+      "name": "Homemade Pizza",
+      "description": "Customizable and delicious pizza straight from your own oven.",
+      "ingredients": ["1 pizza dough", "1 cup pizza sauce", "Assorted toppings of your choice"],
+      "time": 30,
+      "calories": 600
+    },
+    {
+      "img": "https://i.ibb.co/M8C9rcM/Banana-Bread.jpg",
+      "id": 9,
+      "name": "Banana Bread",
+      "description": "Moist and flavorful bread perfect for breakfast or dessert.",
+      "ingredients": ["2 ripe bananas", "1 cup flour", "1/2 cup sugar"],
+      "time": 60,
+      "calories": 300
+    },
+    {
+      "img": "https://i.ibb.co/ZKJtFsW/Beef-Tacos.jpg",
+      "id": 10,
+      "name": "Beef Tacos",
+      "description": "Easy and delicious Mexican street food filled with seasoned beef and toppings.",
+      "ingredients": ["500g ground beef", "1 packet taco seasoning", "8 taco shells"],
+      "time": 20,
+      "calories": 450
+    }
+  ]
