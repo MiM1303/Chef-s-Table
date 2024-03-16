@@ -7,7 +7,7 @@ const Recipe = ({recipe, wantToCookHandler}) => {
     // console.log(name);
     return (
         <div className="w-full">
-            <div className="card w-96 bg-base-100 py-6 px-6 border border-[#28282833] rounded-2xl">
+            <div className="card w-full md:w-96 bg-base-100 py-6 px-6 border border-[#28282833] rounded-2xl">
                 <figure><img className="rounded-2xl " src={img} alt="Beef Stir Fry" /></figure>
                 <div className="card-body">
                     <h2 className="card-title text-xl font-semibold text-[#282828]">{name}</h2>
@@ -16,8 +16,8 @@ const Recipe = ({recipe, wantToCookHandler}) => {
                     <div>
                         <h6 className="pt-6 pb-4 text-[#282828] text-lg font-medium">Ingredients: {ingredients.length}</h6>
                         <ul className="pb-4 text-[#878787] text-lg font-normal list-disc pl-8">
-                            {ingredients.map((ingredient) => (
-                                <li key={recipe.idx}>{ingredient}</li>
+                            {ingredients.map((ingredient, index) => (
+                                <li key={index}>{ingredient}</li>
                             ))}
                         </ul>
                     </div>
@@ -44,7 +44,6 @@ const Recipe = ({recipe, wantToCookHandler}) => {
 Recipe.propTypes ={
     recipe: PropTypes.object.isRequired,
     wantToCookHandler: PropTypes.func.isRequired,
-    
 }
 
 export default Recipe;
