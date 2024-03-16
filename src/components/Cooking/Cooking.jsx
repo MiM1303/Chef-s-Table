@@ -1,19 +1,20 @@
 import PropTypes from 'prop-types';
 
-const Cooking = ({cooking}) => {
+const Cooking = ({cooking, index}) => {
     const {name, time, calories}=cooking;
     return (
         <tr className="bg-[#f8f7f2cc] text-center ">                        
-            <th>1</th>
+            <th>{index+1}</th>
             <td>{name}</td>
-            <td>{time}</td>
-            <td>{calories}</td>
+            <td>{time} minutes</td>
+            <td>{calories} calories</td>
         </tr>
     );
 };
 
 Cooking.propTypes ={
-    cooking: PropTypes.object.isRequired
+    cooking: PropTypes.object.isRequired,
+    index: PropTypes.number.isRequired
 }
 
 export default Cooking;

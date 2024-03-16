@@ -6,7 +6,7 @@ const Foods = ({cook, currentlyCookingHandler, cooking, totalTime, totalCalories
     // console.log(cook);
     
     return (
-        <div className="border border-[#28282833] rounded-2xl py-8 text-center w-2/5">
+        <div className="border border-[#28282833] rounded-2xl py-8 text-center flex-grow">
             {/* Want to Cook */}
             <div>
                 <h3 className="text-[#282828] font-semibold text-2xl">Want to cook: {cook.length}</h3>
@@ -25,7 +25,7 @@ const Foods = ({cook, currentlyCookingHandler, cooking, totalTime, totalCalories
                         </thead>
                         <tbody>
                         {
-                            cook.map( (food,idx) => <Food food={food} key={idx} currentlyCookingHandler={currentlyCookingHandler}></Food>)
+                            cook.map( (food,idx) => <Food food={food} key={idx} index={idx} currentlyCookingHandler={currentlyCookingHandler}></Food>)
                         }
                             {/* <Food cook={cook}></Food> */}
                         </tbody>
@@ -49,7 +49,7 @@ const Foods = ({cook, currentlyCookingHandler, cooking, totalTime, totalCalories
                         </thead>
                         <tbody>
                             {
-                                cooking.map((cooking,idx) => <Cooking cooking={cooking} key={idx} ></Cooking>)
+                                cooking.map((cooking,idx) => <Cooking cooking={cooking} key={idx} index={idx} ></Cooking>)
                             }
                             {/* <Cooking cooking={cooking}></Cooking>
                             <Cooking></Cooking> */}

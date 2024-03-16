@@ -21,7 +21,7 @@ function App() {
     // console.log(cook);
     const isExist = cook.find(food=> food.id==recipe.id);
     if(isExist){
-      toast('Recipe is already in list');
+      toast.error('Recipe is already in list');
       
     }
     else{

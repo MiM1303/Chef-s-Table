@@ -1,6 +1,6 @@
 [
     {
-      "img": "https://i.ibb.co/hLCJs0X/Spaghetti-Bolognese.jpg ",
+      "img": "https://i.ibb.co/1ZxGmvr/Spaghetti-Bolognese.jpg",
       "id": 1,
       "name": "Spaghetti Bolognese",
       "description": "Classic Italian pasta dish with savory meat sauce.",
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Beef Stir-Fry",
       "description": "Quick and flavorful Asian-inspired dish with tender beef and crisp vegetables.",
-      "ingredients": ["500g beef sirloin", "2 bell peppers, sliced", "1 cup broccoli florets"],
+      "ingredients": ["500g beef sirloin", "2 bell peppers, sliced", "1 cup broccoli florets", "Soy Sauce"],
       "time": 25,
       "calories": 550
     },
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Mushroom Risotto",
       "description": "Creamy and comforting Italian rice dish with earthy mushrooms.",
-      "ingredients": ["1 cup Arborio rice", "200g mushrooms", "1 onion, finely chopped"],
+      "ingredients": ["1 cup Arborio rice", "200g mushrooms", "1 onion, finely chopped", "Basil for garnish"],
       "time": 40,
       "calories": 500
     },
@@ -58,7 +58,7 @@
       "id": 7,
       "name": "Vegetable Curry",
       "description": "Hearty and wholesome vegetarian curry bursting with vibrant flavors.",
-      "ingredients": ["2 cups mixed vegetables", "1 can coconut milk", "2 tbsp curry powder"],
+      "ingredients": ["2 cups mixed vegetables", "1 can coconut milk", "2 tbsp curry powder", "1 cup chicken"],
       "time": 35,
       "calories": 400
     },
@@ -76,7 +76,7 @@
       "id": 9,
       "name": "Banana Bread",
       "description": "Moist and flavorful bread perfect for breakfast or dessert.",
-      "ingredients": ["2 ripe bananas", "1 cup flour", "1/2 cup sugar"],
+      "ingredients": ["2 ripe bananas", "1 cup flour", "1/2 cup sugar", "3 tbsp butter"],
       "time": 60,
       "calories": 300
     },
