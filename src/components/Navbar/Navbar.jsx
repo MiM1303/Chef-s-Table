@@ -27,9 +27,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end flex gap-4">
-                <div className="relative text-xs md:text-base">
+                <div className="relative text-xs md:text-base hidden md:block">
                     <span className="absolute top-1/3 left-3"><CiSearch /></span>
-                    <input type="text" placeholder="Search" className="input input-bordered w-32 md:w-auto pl-8" /> 
+                    <input type="text" placeholder="Search" className="input input-bordered w-8 md:w-auto  pl-8" /> 
                 </div>
                 <div className="text-base md:text-2xl rounded-full bg-[#0BE58A] p-2 md:p-3">
                     <FaRegUserCircle />
